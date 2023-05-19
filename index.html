@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Price Calculator</title>
+</head>
+
+<body class="">
+    <main>
+        <form action="" class="form">
+            <div class="formSec">
+                <label for="city">Ciudad:</label>
+                <select name="city" id="city">
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Bilbao">Bilbao</option>
+                </select>
+            </div>
+            <div class="formSec">
+                <label for="days">Número de noches de hotel:</label>
+                <input type="number" name="days" id="days" min="1" max="30">
+            </div>
+            <div class="formSec">
+                <label for="car">Coche de alquiler:</label>
+                <select name="car" id="car">
+                    <option value="true">Si</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+            <div class="formSec">
+                <label for="insurance">Seguro de coche:</label>
+                <select name="insurance" id="insurance">
+                    <option value="true">Si</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+            <input type="submit" value="Enviar" class="submit">
+        </form>
+        <div class="total-container">
+            <p>Precio total del viaje:</p>
+            <span class="total"></span>
+        </div>
+    </main>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
