@@ -3,7 +3,8 @@
 # Travel Price Calculator
 En este ejercicio usaremos un proyecto que integra HTML, CS y JavaScript. Todavía no sabes cómo hacer esta integración, pero no te preocupes, ya está hecha de antemano. Tu única tarea es completar los archivos de JavaScript para que el proyecto pueda funcionar.
 
-Este proyecto sirve también para que empieces a vislumbrar para qué sirve todo lo que hemos estudiado de JavaScript hasta ahora. Para qué sirven las funciones, y los bucles, y los objetos, etc.
+Este proyecto sirve también para que empieces a vislumbrar para qué sirve todo lo que hemos estudiado de JavaScript hasta ahora. Para qué sirven las funciones, y los bucles, y los objetos, etc.  
+
 ![](https://media.giphy.com/media/1GK2uXhGHcQ5G/giphy.gif)
 
 ### Instalación
