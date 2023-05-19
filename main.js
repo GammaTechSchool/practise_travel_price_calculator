@@ -1,4 +1,4 @@
-import { getInsurancePrice, getFlightPrice, getHotelPrice, getCarPrice } from "./utilities/functions.js"
+import { getInsurancePrice, getFlightPrice, getHotelPrice, getCarPrice } from "./utils/functions.js"
 
 const span = document.querySelector('.total')
 const form = document.querySelector('.form')
